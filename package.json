@@ -1,10 +1,11 @@
 {
-  "name": "random-messages",
+  "name": "random-messages-byimwaltdiaz",
   "version": "1.0.0",
-  "description": "random de mensajes",
+  "description": "random name generator",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "random-msg": "./bin/global.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +13,9 @@
     "npm"
   ],
   "author": "walter",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
